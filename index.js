@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req,res) => {
-	res.send('Hello Ubuntu')
+	res.send('home route')
 })
 
 app.listen(3000)
