@@ -1,0 +1,27 @@
+{
+  "name": "TotalGit",
+  "version": "1.0.0",
+  "description": "It's a API that send you a message on the phone if someone send you a pull request on github.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phfedev/TotalGit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phfedev/TotalGit/issues"
+  },
+  "homepage": "https://github.com/phfedev/TotalGit#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,53 @@
+Arguments: 
+  /home/ph/.nvm/versions/node/v12.16.1/bin/node /usr/share/yarn/bin/yarn.js
+
+PATH: 
+  /home/ph/.nvm/versions/node/v12.16.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/ConEmu/ConEmu/Scripts:/mnt/c/Program Files/ConEmu:/mnt/c/Program Files/ConEmu/ConEmu:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Java/jdk-13.0.2:/mnt/c/Program Files/Java/jdk-13.0.2/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/ph/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ph/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/ph/Documents/TotalGit/package.json: Unexpected token } in JSON at position 258
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "TotalGit",
+    "version": "1.0.0",
+    "description": "It's a API that send you a message on the phone if someone send you a pull request on github.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/phfedev/TotalGit.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/phfedev/TotalGit/issues"
+    },
+    "homepage": "https://github.com/phfedev/TotalGit#readme",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
