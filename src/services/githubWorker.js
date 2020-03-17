@@ -27,6 +27,23 @@ class GithubWorker {
 
     return reposList;
   }
+
+  async getRepoIssues(repoName) {
+    const issuesList = [];
+    const issues = await axios
+      .get(`https://api.github.com/repos/phfedev/${repoName}/issues`)
+      .then(response => response.data);
+
+    issues.map(resp => {
+      issuesList.push({
+        title: resp.title,
+        body: resp.body,
+        user: resp.user.login,
+      });
+      return issuesList;
+    });
+    return issuesList;
+  }
 }
 
 module.exports = new GithubWorker();
